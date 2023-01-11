@@ -1,6 +1,6 @@
 function letterCombinations(digits) {
     if (!digits) return []; // if the input is empty or null
-    const mapping = ['0', '1', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz'];
+    const mapping = ['', '', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz'];
     let result = ['']; // array with a single empty string
 
     for (let i = 0; i < digits.length; i++) {
@@ -17,5 +17,6 @@ function letterCombinations(digits) {
     }
     return result.sort();
 }
+
 
 module.exports = letterCombinations;
