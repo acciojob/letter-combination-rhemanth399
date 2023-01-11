@@ -18,5 +18,4 @@ function letterCombinations(digits) {
     return result.sort();
 }
 
-
-//module.exports = letterCombinations;
+module.exports = letterCombinations;
